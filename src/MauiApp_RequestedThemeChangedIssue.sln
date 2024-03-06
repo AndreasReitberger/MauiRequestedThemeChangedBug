@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiApp_RequestedThemeChangedIssue", "MauiApp_RequestedThemeChangedIssue\MauiApp_RequestedThemeChangedIssue.csproj", "{1D71CC69-EC07-4516-A78D-59B4ADA1AB9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D71CC69-EC07-4516-A78D-59B4ADA1AB9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D71CC69-EC07-4516-A78D-59B4ADA1AB9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D71CC69-EC07-4516-A78D-59B4ADA1AB9F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1D71CC69-EC07-4516-A78D-59B4ADA1AB9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D71CC69-EC07-4516-A78D-59B4ADA1AB9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D71CC69-EC07-4516-A78D-59B4ADA1AB9F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A92C61CA-F530-4F99-A6A7-41E2998959D4}
+	EndGlobalSection
+EndGlobal
