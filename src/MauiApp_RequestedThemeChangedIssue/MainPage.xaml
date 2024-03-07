@@ -28,6 +28,30 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+            
+            <BoxView
+                />
+
+            <Label
+                Text="Header"
+                FontSize="Header"
+                />
+            <Label
+                Text="Medium"
+                FontSize="Medium"
+                />
+            <Label
+                Text="Default"
+                FontSize="Default"
+                />
+            <Label
+                Text="Small"
+                FontSize="Small"
+                />
+            <Label
+                Text="Micro"
+                FontSize="Micro"
+                />
         </VerticalStackLayout>
     </ScrollView>
 
