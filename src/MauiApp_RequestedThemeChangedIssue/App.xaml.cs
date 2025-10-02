@@ -2,8 +2,11 @@
 {
     public partial class App : Application
     {
+        public static IServiceProvider? ServiceProvider;
+
         public App(IServiceProvider serviceProvider)
         {
+            ServiceProvider = serviceProvider;
             InitializeComponent();
 
             if (Current is not null)
@@ -13,8 +16,11 @@
                     Console.WriteLine($"Current AppTheme: {Current.RequestedTheme}");
                 };
             }
-            //MainPage = new AppShell();
-            MainPage = serviceProvider.GetRequiredService<AppShell>();
+        }
+        protected override Window CreateWindow(IActivationState? activationState)
+        {
+            AppShell? page = ServiceProvider?.GetRequiredService<AppShell>();
+            return new Window(page ?? new AppShell());
         }
     }
 }
